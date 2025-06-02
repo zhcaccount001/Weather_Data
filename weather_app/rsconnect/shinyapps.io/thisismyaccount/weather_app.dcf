@@ -1,0 +1,10 @@
+name: weather_app
+title:
+username: thisismyaccount
+account: thisismyaccount
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14861984
+bundleId: 10378908
+url: https://thisismyaccount.shinyapps.io/weather_app/
+version: 1

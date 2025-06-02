@@ -1,0 +1,13 @@
+version: '3'
+services:
+  shiny:
+    build: ./shiny-app
+    ports:
+      - "3838:3838"
+    depends_on:
+      - api
+
+  api:
+    build: ./plumber-api
+    ports:
+      - "8000:8000"
